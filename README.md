@@ -14,7 +14,7 @@ import Madmen from 'madmenjs'
 const config = { publisher:'0x....'}
 
 // default contract is deployed on polygon mainnet
-config.contract = '0xDB4f1986b9eE542bEE65A2F4E3E6F854774e7aA7'  // optional
+config.contract = '0x95AaFBCc74bC2c427f83f06B0b97D3aFC901d3fe'  // optional
 config.chainRpc = 'https://rpc-mumbai.matic.today'  // optional
 
 const madmen = await Madmen(config)
